@@ -1,22 +1,22 @@
 { 
-2     "name": "itice/smser", 
-3     "description": "smser for yii2", 
-4     "license": "BSD-3-Clause", 
-5     "type": "yii2-extension", 
-6     "authors": [ 
-7         { 
-8             "name": "itice", 
-9             "email": "itice@163.com", 
-10             "homepage":"http://itice.sinaapp.com" 
-11         } 
-12     ], 
-13     "require": { 
-14         "yiisoft/yii2": "*", 
-15         "php": ">=5.4" 
-16     }, 
-17     "autoload": { 
-18         "psr-4": { 
-19             "itice\\smser\\":"" 
-20         } 
-21     } 
-22 } 
+     "name": "itice/smser", 
+     "description": "smser for yii2", 
+     "license": "BSD-3-Clause", 
+     "type": "yii2-extension", 
+     "authors": [ 
+         { 
+             "name": "itice", 
+             "email": "itice@163.com", 
+             "homepage":"http://itice.sinaapp.com" 
+         } 
+     ], 
+     "require": { 
+         "yiisoft/yii2": "*", 
+         "php": ">=5.4" 
+     }, 
+     "autoload": { 
+         "psr-4": { 
+             "itice\\smser\\":"" 
+         } 
+     } 
+ } 
