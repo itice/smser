@@ -35,6 +35,10 @@ class YtxSmser extends Component {
 	private $Handle;
 	
 	public $TempId;
+	public $Expire;
+	
+	public $DayMobile;
+	public $DayIp;
 	
 	function init()	
 	{
@@ -271,9 +275,9 @@ class YtxSmser extends Component {
         return $datas; 
     }
     
-    function send($to, $datas)
+    function send($to, $id_code)
     {
-        return $this->sendTemplateSMS($to, $datas);
+        return $this->sendTemplateSMS($to, [$id_code, $this->Expire]);
     }
     
    /**
